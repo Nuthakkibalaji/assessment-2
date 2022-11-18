@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-gradient{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(160deg,aquamarine, skyblue, purple);
+   
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+
+.content img{
+    border: 7px solid rgb(9, 9, 9);
+    border-radius: 50%; 
+    height: 150px;
+    width: 150px;
+    animation-name: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+@keyframes float{
+    20%{
+        transform: translateY(-50px);
+    }
+}
+.content h3{
+    color: white;
+    font-family: normal;
+    font-size: 30px;
+}
+.fa-brands{
+    font-size: 30px;
+    margin-left: 30px;
+    color: rgb(120, 116, 116);
+}
+.fa-brands:hover{
+    color: white;
+}
+.red{
+    height: 60px;
+    width: 300px;
+    background-color: rgb(218, 82, 82);
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    top: 330px;
+    left: 20px;
+}
+.fa-solid{
+    font-size: 30px;
+    color:yellow;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.kk{
+    font-family: 'Kaushan Script', cursive;
+   position: relative;
+   left: 45px;
+   bottom: 35px;
+   font-size: 30px;
+   color: white;
+}
+.heart{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(158, 30, 30);
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    top: 270px;
+    left: 320px
+    
+}
+.heart-2{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.ox{
+    color: white;
+    margin-left: 29px;
+
+}
+
+
+@media screen and (max-width:500px) and (min-width: 300px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .bg-gradient{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(140deg,aquamarine, skyblue, purple);
+       
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+    }
+    
+    .content img{
+        border: 7px solid rgb(9, 9, 9);
+        border-radius: 50%; 
+        height: 150px;
+        width: 150px;
+        animation-name: float;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+    }
+    @keyframes float{
+        20%{
+            transform: translateY(-50px);
+        }
+    }
+    .content h3{
+        color: white;
+        font-family: normal;
+        font-size: 25px;
+    }
+    .fa-brands{
+        font-size: 30px;
+        margin-left: 30px;
+        color: rgb(120, 116, 116);
+    }
+    .fa-brands:hover{
+        color: white;
+    }
+    .red{
+        height: 50px;
+        width: 220px;
+        background-color: rgb(218, 82, 82);
+        border-radius: 10px 0px 0px 10px;
+        position: relative;
+        top: 340px;
+        left: 20px;
+    }
+    .fa-solid{
+        font-size: 25px;
+        color:yellow;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .kk{
+        font-family: 'Kaushan Script', cursive;
+       position: relative;
+       left: 45px;
+       bottom: 26px;
+       font-size: 22px;
+       color: white;
+    }
+    .heart{
+        height: 50px;
+        width: 40px;
+        background-color: rgb(158, 30, 30);
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        top: 290px;
+        left: 240px
+        
+    }
+    .heart-2{
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .ox{
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+    
+    }
+}
